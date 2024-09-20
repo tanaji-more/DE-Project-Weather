@@ -34,11 +34,11 @@ Steps:
 
 Weather API Data Integration with AWS and Snowflake.
 
--Fetched real-time weather data using Weather API and stored it in an AWS DynamoDB table.
--Developed a Python-based Lambda function to process the Weather API data and store the output in AWS S3.
--Leveraged DynamoDB Streams to capture changes and load data into AWS S3 automatically.
--Configured Snowflake external stages to fetch data from S3, enabling seamless integration for data analysis.
--Created and managed IAM roles and policies for secure access between AWS and Snowflake.
--Automated hourly data ingestion into Snowflake using EventBridge (CloudWatch Events) to schedule Lambda executions.
--Successfully implemented end-to-end data pipeline from API to Snowflake, enhancing real-time weather data analytics.
+1. Fetched real-time weather data using Weather API and stored it in an AWS DynamoDB table.
+2. Developed a Python-based Lambda function to process the Weather API data and store the output in AWS S3.
+3. Leveraged DynamoDB Streams to capture changes and load data into AWS S3 automatically.
+4. Configured Snowflake external stages to fetch data from S3, enabling seamless integration for data analysis.
+5. Created and managed IAM roles and policies for secure access between AWS and Snowflake.
+6. Automated hourly data ingestion into Snowflake using EventBridge (CloudWatch Events) to schedule Lambda executions.
+7. Successfully implemented end-to-end data pipeline from API to Snowflake, enhancing real-time weather data analytics.
 
